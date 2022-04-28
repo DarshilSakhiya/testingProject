@@ -12,13 +12,6 @@ const Home = () => {
 
   return (
     <Tab.Navigator screenOptions={{
-      headerShown: false, 
-      tabBarStyle: {
-      borderTopLeftRadius: 30, 
-      borderTopRightRadius: 30, 
-      position: 'absolute', 
-      bottom: 1,  
-      height: 80, 
       backgroundColor: 'white',
       shadowColor: "#000",
       shadowOffset: {
