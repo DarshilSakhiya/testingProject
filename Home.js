@@ -74,11 +74,6 @@ const Home = () => {
     <Tab.Screen name="Daiting" component={Daiting} 
     options={{tabBarIcon: ({focused}) => (
       <View>
-      <Image
-      source={require('../../assets/apple.png')}
-      resizeMode='contain'
-      style={{width:25,height:25,tintColor:focused? '#5730c2':'black'}}
-      ></Image>
    </View>
     
     ),}}/>
